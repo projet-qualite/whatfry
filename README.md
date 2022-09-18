@@ -78,7 +78,8 @@ You can find more information about me at the link: https://frymarshall.com
 ## Tech Stack
 
 **Server:** Node, Express, Socket io
-**Server:** Angular, Typescript
+
+**Client:** Angular, Typescript
 
 
 ## License
