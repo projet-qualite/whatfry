@@ -66,8 +66,7 @@ In the server folder rename .env.example to .env, fill all these variables and c
 <img width="1440" alt="login" src="https://user-images.githubusercontent.com/57530450/190911033-55fca7b0-a1e4-4322-aaea-98c3a15bff82.png">
 
 [http://localhost:4200/auth/dashboard](http://localhost:4200/auth/dashboard)
-<img width="1440" alt="chat" src="https://user-images.githubusercontent.com/57530450/190911061-3290f3f5-669d-4dca-a39a-c629724a5fd0.png">
-
+<img width="1440" alt="Capture d’écran 2022-09-18 à 16 06 48" src="https://user-images.githubusercontent.com/57530450/190911153-1fc9dd94-3bc4-460a-817f-8b4d456b0275.png">
 
 
 
