@@ -57,3 +57,5 @@ whatfry-client/.history
 
 # Husky
 whatfry-client/.husky/_
+
+whatfry-server/.env
