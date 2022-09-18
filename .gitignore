@@ -1,0 +1,59 @@
+whatfry-client/.DS_STORE
+
+whatfry-client/dist/
+whatfry-client/bazel-out
+whatfry-client/integration/bazel/bazel-*
+whatfry-client/*.log
+whatfry-client/node_modules
+whatfry-server/node_modules
+
+# CircleCI temporary file for cache key computation.
+# See `save_month_to_file` in `.circleci/config.yml`.
+whatfry-client/month.txt
+
+# Include when developing application packages.
+whatfry-client/pubspec.lock
+whatfry-client/.c9
+whatfry-client/.idea/
+whatfry-client/.devcontainer/*
+whatfry-client/!.devcontainer/README.md
+whatfry-client/!.devcontainer/recommended-devcontainer.json
+whatfry-client/!.devcontainer/recommended-Dockerfile
+whatfry-client/.settings/
+whatfry-client/.vscode/launch.json
+whatfry-client/.vscode/settings.json
+whatfry-client/.vscode/tasks.json
+whatfry-client/*.swo
+whatfry-client/*.swp
+whatfry-client/modules/.settings
+whatfry-client/modules/.vscode
+whatfry-client/.vimrc
+whatfry-client/.nvimrc
+
+# Don't check in secret files
+whatfry-client/*secret.js
+
+# Ignore npm/yarn debug log
+whatfry-client/npm-debug.log
+whatfry-client/yarn-error.log
+
+# build-analytics
+whatfry-client/.build-analytics
+
+# rollup-test output
+whatfry-client/modules/rollup-test/dist/
+
+# User specific bazel settings
+whatfry-client/.bazelrc.user
+
+# User specific ng-dev settings
+whatfry-client/.ng-dev.user*
+
+whatfry-client/.notes.md
+whatfry-client/baseline.json
+
+# Ignore .history for the xyz.local-history VSCode extension
+whatfry-client/.history
+
+# Husky
+whatfry-client/.husky/_

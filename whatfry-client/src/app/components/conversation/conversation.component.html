@@ -1,0 +1,40 @@
+<div class="container">
+    <header class="conv-header">
+        <div class="first">
+            <div class="img">
+                <img src="/assets/default.jpg" alt="" class="profil">
+            </div>
+            <p class="name">{{ conversation.user.firstname }} {{ conversation.user.lastname }}</p>
+        </div>
+        <div class="icons">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <span class="material-symbols-outlined">
+                more_vert
+            </span>
+        </div>
+    </header>
+    <div #scrollMe class="msg-list">
+        <ng-container *ngFor="let message of conversation.messages">
+            <app-message [message]="message"></app-message>
+        </ng-container>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="sendMessage()">
+        <footer class="conv-footer">
+            <span class="material-symbols-outlined">
+                sentiment_satisfied
+            </span>
+            <div class="msg-field">
+                <input type="text" formControlName="message" placeholder="Taper un message">
+            </div>
+            <button type="submit">
+                <span class="material-symbols-outlined">
+                    send
+                </span>
+            </button>
+        </footer>
+
+    </form>
+    
+</div>

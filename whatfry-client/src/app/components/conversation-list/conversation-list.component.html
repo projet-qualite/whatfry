@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="bar">
+        <div class="img">
+            <img src="/assets/default.jpg" alt="">
+        </div>
+        <div class="icons">
+            <span class="ic material-symbols-outlined" (click)="showNewDiscussion()">
+                chat
+            </span>
+            <span class="ic material-symbols-outlined" (click)="logout()">
+                logout
+            </span>
+        </div>
+    </div>
+    <div class="search">
+        <input type="text">
+    </div>
+    <div class="conversations">
+        <ng-container *ngFor="let conv of conversations; let indexEl = index">
+            <app-conversation-item (click)="showConv(conv)" [conversation]="conv"></app-conversation-item>
+        </ng-container>
+    </div>
+    <div class="accounts">
+        <div class="topbar">
+            <div class="els">
+                <span class="material-symbols-outlined" (click)="closeNewDiscussion()">
+                    arrow_back
+                </span>
+                <h4>Nouvelle discussion</h4>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text">
+        </div>
+        <div class="users">
+            <ng-container *ngFor="let user of allUsers$ | async">
+                <app-account-item (click)="showNewConversation(user)" [user]="user"></app-account-item>
+            </ng-container>
+        </div>
+    </div>
+</div>

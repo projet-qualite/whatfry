@@ -1,0 +1,48 @@
+:host{
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        max-width: 25%;
+        position: relative;
+        background-color: var(--colorMessageBack);
+        padding: 6px 7px 8px 9px;
+        border-radius: 7.5px;
+        box-shadow: 0 1px .5px rgba(11,20,26,.13);
+        float: var(--position);
+        margin: 20px 82px;
+
+       /*  span{
+            position: absolute;
+            top: -2px;
+            right: -5px;
+
+            svg{
+                color: white;
+            }
+        } */
+       
+        
+        .msg{
+            font-size: 15px;
+            margin-right: 30px;
+            color: var(--colorMessageText);
+        }
+
+        .heure{
+            font-size: 10px;
+            color: var(--colorMessageHeure);
+            align-self: flex-end;
+        }
+
+
+    }
+
+    .left-part{
+
+    }
+
+    .right-part{
+
+    }
+}

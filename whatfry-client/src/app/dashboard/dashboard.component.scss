@@ -1,0 +1,31 @@
+:host{
+    .container{
+        display: flex;
+
+        .details-msg{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .descr{
+                text-align: center;
+                width: 80%;
+                margin-top: 50px;
+
+                .title{
+                    font-size: 22px;
+                }
+                .subtitle{
+                    font-weight: 300;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .conv{
+            width: 70%;
+        }
+    }
+}
