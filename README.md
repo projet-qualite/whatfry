@@ -79,7 +79,7 @@ You can find more information about me at the link: https://frymarshall.com
 
 **Server:** Node, Express, Socket io
 
-**Client:** Angular, Typescript
+**Client:** Angular, Typescript, Ngrx
 
 
 ## License
